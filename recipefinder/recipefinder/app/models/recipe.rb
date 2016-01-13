@@ -1,6 +1,6 @@
 class Recipe
   include HTTParty
-  #1f8a5aa4ec496312b377885e653bcc12
+  
   #echo 'export FOOD2FORK_SERVER_AND_PORT=www.food2fork.com' >> ~/.bashrc
     #source ~/.bashrc
   key_value = ENV['FOOD2FORK_KEY']
