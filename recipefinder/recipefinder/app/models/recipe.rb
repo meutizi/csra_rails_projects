@@ -3,8 +3,8 @@ class Recipe
   #1f8a5aa4ec496312b377885e653bcc12
   #echo 'export FOOD2FORK_SERVER_AND_PORT=www.food2fork.com' >> ~/.bashrc
     #source ~/.bashrc
-  key_value = ENV[’FOOD2FORK_KEY’]
-  hostport = ENV[’FOOD2FORK_SERVER_AND_PORT’] || ’www.food2fork.com’
+  key_value = ENV['FOOD2FORK_KEY']
+  hostport = ENV['FOOD2FORK_SERVER_AND_PORT'] || 'www.food2fork.com'
   base_uri "http://#{hostport}/api"
 
   default_params key: key_value
